@@ -1,0 +1,17 @@
+[package]
+name = "flutter_mcap_parser"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+flutter_rust_bridge = { version = "=2.11.1", features = ["chrono"] }
+mcap = "0.24.0"
+memmap = "0.7.0"
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(frb_expand)'] }

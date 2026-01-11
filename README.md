@@ -145,7 +145,3 @@ void parseBytes(Uint8List mcapData) {
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
-
-## 📄 License
-
-MIT

@@ -1,7 +1,7 @@
 name: flutter_mcap_parser
 description: "A new Flutter FFI plugin project."
 version: 0.0.1
-homepage:
+repository: https://github.com/debuggerx01/flutter_mcap_parser
 
 environment:
   sdk: ^3.10.0
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_rust_bridge: 2.11.1
+  flutter_rust_bridge: ^2.11.1
   freezed_annotation: ^3.1.0
   plugin_platform_interface: ^2.0.2
 
